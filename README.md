@@ -1,1 +1,1 @@
-ALX ahell basics exercises
+ALX shell basics exercises
