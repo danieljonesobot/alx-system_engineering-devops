@@ -9,11 +9,23 @@ italy='bad luck from Italy'
 
 while [ $i -le 20 ]
 do
-	echo "$i"
-	case $i in
-		"4") echo "$china";;
-		"9") echo "$japan";;
-		"17") echo "$italy"
-	esac
+
+	if [ $i -eq 4 ]
+	then
+		echo '4'
+		echo "$china"
+	elif
+		[ $i -eq 9 ]
+	then
+		echo '9'
+		echo "$japan"
+	elif
+		[ $i -eq 17 ]
+	then
+		echo '17'
+		echo "$italy"
+	else
+		echo "$i"
+	fi
 	((i++))
 done
