@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #This script loops from 1 to 10, displays "bad luck" for the 4th iteration, "good luck" for 8th iteration and "Best School" for the rest iterations
 
-i=0
+i=1
 var='Best School'
 bad='bad luck'
 good='good luck'
