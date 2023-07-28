@@ -1,0 +1,31 @@
+#!/usr/bin/env bash
+#This script loops from 1 to 20, displays 4 and then "bad luck from China" for the 4th iteration, displays 9 and then "bad luck from Japan" for 9th iteration, displays 17 and then "bad luck from Italy" for the 17th iteration
+
+i=1
+
+china='bad luck from China'
+japan='bad luck from Japan'
+italy='bad luck from Italy'
+
+while [ $i -le 20 ]
+do
+
+	if [ $i -eq 4 ]
+	then
+		echo '4'
+		echo "$china"
+	elif
+		[ $i -eq 9 ]
+	then
+		echo '9'
+		echo "$japan"
+	elif
+		[ $i -eq 17 ]
+	then
+		echo '17'
+		echo "$italy"
+	else
+		echo "$i"
+	fi
+	((i++))
+done
