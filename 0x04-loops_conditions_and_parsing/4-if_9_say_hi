@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+# This script displays "Best School" 10 times but for the 9th iteration, displays Best School and then Hi on a new line.
+
+i=0
+var='Best School'
+greet='Hi'
+#if [ $i -eq 9 ]
+#then
+#	echo "$greet"
+#fi
+
+while [ $i -lt 10 ];
+do
+	echo "$var"
+	((i++))
+
+	if [ $i -eq 9 ]
+	then
+		echo "$greet"
+	fi
+done
