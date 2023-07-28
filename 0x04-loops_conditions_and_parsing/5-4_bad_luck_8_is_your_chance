@@ -6,10 +6,8 @@ var='Best School'
 bad='bad luck'
 good='good luck'
 
-while [ $i -lt 10 ];
+while [ $i -le 10 ]
 do
-	echo "$var"
-	((i++))
 
 	if [ $i -eq 4 ]
 	then
@@ -18,5 +16,8 @@ do
 		[ $i -eq 8 ]
 	then
 		echo "$good"
+	else
+		echo "$var"
 	fi
+	((i++))
 done
