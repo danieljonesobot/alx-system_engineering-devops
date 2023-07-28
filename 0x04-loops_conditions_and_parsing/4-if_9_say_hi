@@ -4,10 +4,6 @@
 i=0
 var='Best School'
 greet='Hi'
-#if [ $i -eq 9 ]
-#then
-#	echo "$greet"
-#fi
 
 while [ $i -lt 10 ];
 do
