@@ -3,7 +3,7 @@
 #This script displays a list of currently running processes for all users, 
 #including those which might not have a TTY, displays in a user-oriented format and shows process hierarchy
 
-ps aux
+ps -auxf
 
 
 
