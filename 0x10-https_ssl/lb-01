@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#script to run load balancer
+
+ssh -v ubuntu@54.164.142.170
